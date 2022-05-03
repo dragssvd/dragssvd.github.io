@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cc84df;
+}
+
+h1 {
+    text-align: center;
+    line-height: 5em;
+}
+
+section {
+    text-align: center;
+}
+
+#clock {
+    font-family: monospace;
+    text-align: center;
+    font-size: 7em;
+}

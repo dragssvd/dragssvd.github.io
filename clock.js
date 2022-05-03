@@ -12,7 +12,7 @@ function countdown() {
     let seconds = time_left % 60;
     let out = "";
 
-    out += `${days}<br>${String(hours).padStart(2, "0")}:`;
+    out += `${days}:${String(hours).padStart(2, "0")}:`;
     out += `${String(minutes).padStart(2, "0")}:`;
     out += `${String(seconds).padStart(2, "0")}`;
 
